@@ -163,7 +163,7 @@ void setting_up()
 
 void logic()
 {
-  door = !door_pin.read();
+  door = door_pin.read();
   vibration = !vibra.read();
 
   if (buzz_confirm == true)
