@@ -30,8 +30,8 @@ HardwareSerial ss(2);
 #include <BlynkSimpleEsp32.h>
 
 char auth[]   = "X3KvZwuw7Icufiky_qXRS6x2eFx7unw2";
-char ssid[]   = "PONDOK AZZUMAR";
-char pass[]   = "88021249";
+char ssid[]   = "T. N. H";
+char pass[]   = "diadanaku";
 char server[] = "iot.serangkota.go.id";
 
 WidgetMap myMap(V0);
