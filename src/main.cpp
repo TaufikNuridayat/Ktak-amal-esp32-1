@@ -6,7 +6,7 @@ void setup()
   Serial.begin(115200);
   setting_up();
   ss.begin(9600, SERIAL_8N1, 16, 17);
-  vibra.init(INPUT_PULLUP);
+  vibra.init(INPUT);
   door_pin.init(INPUT_PULLUP);
   Selenoid.init(OUTPUT);
 

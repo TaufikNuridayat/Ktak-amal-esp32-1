@@ -90,7 +90,7 @@ private:
 
 PIN Buzz(27);
 PIN Selenoid(14);
-PIN vibra(12);
+PIN vibra(26);
 PIN door_pin(13);
 
 // FINGERPRINT
@@ -164,7 +164,7 @@ void setting_up()
 void logic()
 {
   door = door_pin.read();
-  vibration = !vibra.read();
+  vibration = vibra.read();
 
   if (buzz_confirm == true)
   {
